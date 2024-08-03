@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+        "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<beans>
+
+    <bean id="product1" class="com.nt.flipkart.Product">
+        <property name="productId" value="100" />
+        <property name="productName" value="iPhone"/>
+        <property name="productPrice" value="145000.00"/>
+    </bean>
+
+    <bean id="order1" class="com.nt.flipkart.Order" autowire="byName">
+        <property name="orderId" value="001" />
+        <property name="product" ref="product1" />
+    </bean>
+
+    <bean id="product2" class="com.nt.flipkart.Product">
+        <property name="productId" value="101" />
+        <property name="productName" value="Samsun"/>
+        <property name="productPrice" value="123000.00"/>
+    </bean>
+
+    <bean id="order2" class="com.nt.flipkart.Order" autowire="byName">
+        <property name="orderId" value="002" />
+        <property name="product" ref="product2" />
+    </bean>
+
+</beans>
