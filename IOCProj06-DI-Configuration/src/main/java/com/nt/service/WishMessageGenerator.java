@@ -7,7 +7,8 @@ import java.time.LocalDateTime;
 /**
  *
  */
-@Component("wmg")
+//@Component("wmg")
+    @Component
 public class WishMessageGenerator {
 
     /**

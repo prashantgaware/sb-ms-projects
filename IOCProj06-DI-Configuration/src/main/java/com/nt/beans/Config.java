@@ -21,7 +21,8 @@ public class Config {
      *
      * @return
      */
-    @Bean
+//    @Bean
+    @Bean("getLdt")
     public LocalDateTime getLDT() {
         System.out.println("Config.getLDT");
 
