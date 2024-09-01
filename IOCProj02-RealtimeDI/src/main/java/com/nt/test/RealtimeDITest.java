@@ -2,10 +2,7 @@ package com.nt.test;
 
 import com.nt.controller.MainController;
 import com.nt.vo.EmployeeVO;
-import org.springframework.beans.factory.support.DefaultListableBeanFactory;
-import org.springframework.beans.factory.xml.XmlBeanDefinitionReader;
 import org.springframework.context.ApplicationContext;
-import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.support.FileSystemXmlApplicationContext;
 
 import java.util.Scanner;
