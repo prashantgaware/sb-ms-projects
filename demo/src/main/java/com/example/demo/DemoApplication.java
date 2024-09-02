@@ -11,7 +11,7 @@ public class DemoApplication {
 		System.out.println("Hello everyone..!!");
 		System.out.println("....");
 		
-		
+		String sdsd;
 	}
 
 }
