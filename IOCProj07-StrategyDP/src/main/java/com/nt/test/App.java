@@ -11,7 +11,7 @@ public class App
         AnnotationConfigApplicationContext ctx = new AnnotationConfigApplicationContext(AppConfig.class);
 
         Vehicle vehicle = ctx.getBean("vehicle", Vehicle.class);
-        vehicle.journey("Bengaluru" , "Mysuru");
+        vehicle.journey("Bengaluru" , "Mysore");
 
         ctx.close();
     }
