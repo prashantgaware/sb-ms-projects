@@ -1,2 +1,2 @@
-# sb-ms-projects-intelliJ
+# sb-ms-projects
 SpringBoot MicroServices
