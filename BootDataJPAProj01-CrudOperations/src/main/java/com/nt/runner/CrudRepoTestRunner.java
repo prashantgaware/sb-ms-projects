@@ -21,9 +21,9 @@ public class CrudRepoTestRunner implements CommandLineRunner {
 		movie1.setReleaseyYear("2022");
 		
 		Movie movie2 = new Movie();
-		movie1.setMovieName("Kings");
-		movie1.setRating(4.3f);
-		movie1.setReleaseyYear("2023");
+		movie2.setMovieName("Kings");
+		movie2.setRating(4.3f);
+		movie2.setReleaseyYear("2023");
 		try {
 			System.out.println(movieMgmt.registerMovie(movie1));
 			System.out.println(movieMgmt.registerMovie(movie2));
